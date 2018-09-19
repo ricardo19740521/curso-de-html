@@ -1,0 +1,26 @@
+header{
+	text-align: center;
+	/*text-aling me permite a linear textos :  
+	start -> alinea a la izquierda 
+	end-> alinea a la derecha
+	center-> centra el texto
+	justify: justifica el texto*/
+}
+
+div{
+		text-align: justify;
+}
+
+div div{
+	width: 100%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+
+div div img{
+	width: 20%;
+	height: 20%;
+	min-width: 150px;
+	min-height: 150px;
+}
